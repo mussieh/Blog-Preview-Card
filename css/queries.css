@@ -1,0 +1,23 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+@media (max-width: 34em) {
+    .preview-card {
+        width: 32.7rem;
+    }
+}
+
+/**************************/
+/* BELOW 375px (Phones) */
+/**************************/
+@media (max-width: 23.4em) {
+    html {
+        font-size: 50%;
+    }
+
+    .preview-card {
+        height: 52.2rem;
+    }
+}

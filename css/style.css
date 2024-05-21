@@ -1,0 +1,72 @@
+/**************************/
+/* PREVIEW CARD SECTION */
+/**************************/
+
+.img-illustration {
+    width: 100%;
+    border-radius: 1rem;
+    display: block;
+}
+
+.preview-card {
+    width: 38.4rem;
+    height: 52.2rem;
+    border: 1px solid red;
+    padding: 2.4rem;
+    border-radius: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid rgb(72, 65, 38);
+    box-shadow: 1.6rem 1.6rem 0 0 #000;
+}
+
+.learning-tag {
+    width: 8.2rem;
+    height: 2.9rem;
+    background-color: hsl(47, 88%, 63%);
+    color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin: 2.4rem 0 1.2rem 0;
+}
+
+.blog-date {
+    font-size: 1.4rem;
+    color: rgb(17, 17, 17);
+    margin-bottom: 1.2rem;
+}
+
+.blog-title {
+    font-size: 2.4rem;
+    color: rgb(17, 17, 17);
+    margin-bottom: 1.2rem;
+}
+
+.blog-title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.blog-detail {
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 2.4rem;
+}
+
+.img-avatar {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.writer-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
