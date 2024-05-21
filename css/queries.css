@@ -6,6 +6,7 @@
 @media (max-width: 34em) {
     .preview-card {
         width: 32.7rem;
+        box-shadow: 0.8rem 0.8rem 0 0 #000;
     }
 }
 
